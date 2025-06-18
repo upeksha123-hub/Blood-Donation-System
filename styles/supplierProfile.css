@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.ph{
+    display: flex;
+    align-items: center;
+   /* background-color: blue;*/
+  
+}
+.head1{
+    background-color: #B70404;
+    padding:30px 0;
+    margin-bottom: 50px;
+    box-shadow: 2px 5px 10px rgba(31, 31, 31, 0.397);
+
+    
+}
+.mg{
+    background-image: url("../images/maleesha/pbr.jpg");
+}
+.account_info{
+    position: relative;
+}
+
+.ph1{
+    /* width: auto;
+    height: auto; */
+    /* background-color: rgb(54, 17, 17); */
+    margin-bottom: 40px;
+    margin-left:100px;
+}
+
+.ph2{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 450px;
+    /* box-shadow: 2px 5px 10px rgba(31, 31, 31, 0.397); */
+}
+
+.imgm1{
+    height: 200px;
+    width: 200px;
+}
+
+.spt1{
+    font-size: 50px;
+    color:white;
+    font-family: "Anton", sans-serif;
+   /* color:white; */
+    letter-spacing: 6px;
+    
+}
+
+.phc2{
+   /* background-color: beige; */
+    display: flex;
+    color:white;
+}
+
+.phct{
+    margin-left: 100px;
+    font-family:  "Anton", sans-serif;
+    letter-spacing: 2px;
+}
+
+.pfs{
+    display: flex;
+   /* background-color: yellowgreen; */
+}
+
+.pfh{
+    margin-left: 100px;
+    font-family:  "Anton" , sans-serif;
+    font-size: 25px;
+}
+
+.psh{
+    margin-left: 900px;
+    font-family:  "Anton" , sans-serif;
+    font-size: 25px;
+}
+
+.sdm{
+   /* background-color: brown; */
+    display: flex;
+    font-family:  "Anton" , sans-serif;
+}
+
+.sd{
+   /* background-color: blueviolet; */
+    margin-left: 100px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.ms{
+    font-family:  "Anton" , sans-serif;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bar{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    /* background-color: #c30101; */
+
+}
+
+.formbtn{
+    padding:10px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(20, 122, 0);
+    border: 1px solid rgb(65, 0, 0);
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+  
+.formbtn:hover{
+    background-color: rgb(39, 255, 111);
+    color: black;
+    transform: scale(1.02);
+}
+
+label{
+    width:130px;
+    display: inline-block;
+}
+
+.logoutbtn{
+    margin-left:30px;
+    background-color: #860000;
+}
+
+.logoutbtn:hover{
+    background-color: rgb(190, 0, 0);
+    transform: scale(1.02);
+}
+
+.orders{
+    margin-left:50px;
+    background-color: #002d3f;
+}
+
+.orders:hover{
+    background-color: rgb(57, 183, 221);
+    transform: scale(1.02);
+}

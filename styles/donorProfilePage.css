@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  background-image:url("../images/upeksha/background.jpg");
+   background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+.user img{
+	 width: 20%;
+}
+	
+
+.donor-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.donor-profile h2 {
+  text-align: center;
+}
+
+.donor-profile fieldset {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.donor-profile legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.donor-profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.donor-profile ul li {
+  margin-bottom: 10px;
+}
+
+.donor-profile label {
+  display: block;
+  font-weight: bold;
+}
+
+.donor-profile .inpudon{
+  width: 600px;
+}
+
+.donor-profile input[type="text"],
+.donor-profile input[type="number"],
+.donor-profile input[type="tel"],
+.donor-profile input[type="date"],
+.donor-profile select,
+.donor-profile textarea {
+  /* width: 100%; */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.donor-profile button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.donor-profile button:hover {
+  background-color: #45a049;
+}
+
+.donor-profile img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.logoutbtn {
+  margin-left:100px;
+  background-color: #4b0900;
+}

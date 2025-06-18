@@ -1,0 +1,139 @@
+body{
+	/* background-image: url("../images/lalindi/feedback_bg.jpg"); */
+  width: fit-content;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+}
+
+.bodyimg{
+  background-image: url("../images/lalindi/feedback_bg.jpg");
+  margin: 0;
+  padding: 40px 0 40px 0;
+}
+
+.Quick{
+    font-size: 50px;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+ul.menu{
+
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin:0;
+    background-color: #990404;
+
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  li.menu  {
+   
+    float:left;
+    padding-right: 70px;
+    padding-left: 40px;
+      
+  }
+  
+  .menu li a{
+      display:block;
+      padding: 14px 16px;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      background-color: #990404;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  .menu li a:hover {
+    background-color: #d66060;
+  }
+      
+.active {
+    background-color: #800303;
+ }
+ fieldset{
+    background-color: #beb9b92f;
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 55%;
+ }
+
+legend{
+  margin-left: 40px;
+  font-size: 50px;
+  align-content: center;
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+ margin-left:100px ;
+ font-size: 20px;
+ margin-top: 25px;
+ padding: 12px 20px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 25px;
+}
+input[type=text], .doncenter{
+ width: 60%;
+ padding: 12px 20px;
+ margin-left: 110px;
+
+ box-sizing: border-box;
+ border-radius: 4px;
+ border: 1px solid #ccc;
+}
+textarea, .doncenter{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    margin-left: 110px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  input[type=submit] {
+    width: 20%;
+    background-color: #329ac4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 135px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5da2bd;
+  }
+  input[type=reset] {
+    width: 20%;
+    background-color: #497777;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px ;
+    margin-left: 110px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #688f8d;
+  }

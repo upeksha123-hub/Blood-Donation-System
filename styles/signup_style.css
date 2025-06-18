@@ -1,0 +1,114 @@
+.signup_hero{
+    background-image: url(../images/chanuka/team.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.signup_hero_container{
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.signup_hero_container h1{
+    font-size: 120px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.signup_form{
+    padding: 10px 50px;
+    background-color: rgb(230, 230, 230);
+}
+.signup_container{
+    padding: 30px;
+}
+.signup_container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.signup_content{
+    width: 100%;
+    border: rgb(185, 185, 185) 3px solid;
+    border-radius: 30px;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+.signup_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    margin: 10px 50px;
+    width: 50%;
+}
+.form-group, .form-group_single label{
+    font-weight: bold;
+}
+.form-group_single{
+    width: 100%;
+    margin: 10px 50px;
+}
+.form-item{
+    width: 100%;
+    height: 2.5rem;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    outline: none;
+}
+.form-item-textarea{
+    width: 100%;
+    height: 12rem;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    outline: none;
+}
+.form-radio{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.form-radio .radio{
+    padding: 15px 30px;
+}
+.form-item-radio{
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background-color:#f8f9fa;
+}
+.form-item-select{
+    width: 100%;
+    height: 2.5rem;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    outline: none;
+
+}
+.signup_row .signup-form-btn{
+    padding: 15px 60px;
+    background-color: var(--logo2);
+    margin:20px 10px;
+    color:white;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px
+}
+.signup_row .signup-form-btn:hover{
+    box-shadow:  #000000 5px 5px  50px inset; 
+}
+.signup_form_signin{
+    text-align: center;
+}
+.signup_form_signin a{
+    color: var(--logo1);
+    text-decoration: none;
+}

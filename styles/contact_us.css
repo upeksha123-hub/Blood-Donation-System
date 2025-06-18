@@ -1,0 +1,67 @@
+.contdiv{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-size:100%;
+  background-image: url("../images/upeksha/contact_us_bg.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  
+}
+.wrapper{
+  width: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+ 
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.media {
+  font-size: 55px; 
+  
+}
+
+/* .fa {
+  margin-right: 20px; 
+} */
+
+
+/* .dfa.fa-facebook {
+  background-color: blue; 
+  color:white;
+}
+
+.dfa.fa-instagram {
+	background-color:#FF1493;
+  color: white; 
+}
+
+.dfa.fa-whatsapp {
+  background-color: #25D366;
+  color:white;  
+}
+
+.dfa.fa-twitter {
+  background-color: #1da1f2;
+color:white;  
+}
+
+.dfa.fa-linkedin {
+  color:white; 
+  background-color:#0080FF;
+} */
+.contacts
+{
+	background-color:#FF1D58;
+	color:black;
+}

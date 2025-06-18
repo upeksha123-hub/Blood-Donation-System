@@ -1,0 +1,162 @@
+
+.hero{
+    background-image: url(../images/chanuka/hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 80vh;
+}
+.hero_container{
+    background-color: rgb(0,0,0,0.8);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+.left-container{
+    color: #fff;
+    width: 50%;
+}
+.left-container h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.left-container h2 span{
+    color: var(--logo1);
+}
+.left-container p{
+    padding: 10px 0px;
+    text-align: justify;
+}
+.hero-btn{
+    color: #fff;
+    background-color: var(--logo2);
+    text-decoration: none;
+    padding: 10px 30px;
+    display:  inline-block;
+    margin-top: 15px;
+    border: var(--logo2) 1px solid;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.hero-btn:hover{
+    background-color: var(--logo1);
+}
+.right-container{
+    width: 50%;
+}
+.right-container img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    animation: beat  2s infinite ease-in-out;
+}
+@keyframes beat {
+    0%{
+        opacity: .6;
+        transform: scale(.9);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: .6;
+        transform: scale(.9);
+    }
+}
+.mission{
+    padding: 50px 250px;
+    background-color: aliceblue;
+}
+.mission_container h3{
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: var(--logo1);
+}
+.mission_container p{
+    background-color: rgb(200, 200, 200);
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: black 5px 5px 20px;
+    line-height: 2.5rem;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+.collaborate{
+    padding: 20px 0px;
+}
+.collaborate_container{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+.collaborate_img{
+    position: relative;
+	height: 233px;
+	margin-bottom: 30px;
+	display: flex;
+	width: 100%;
+    animation: leftSlide 30s linear infinite alternate-reverse;
+}
+.collaborate_img img{
+    width: 500px;
+}
+@keyframes leftSlide {
+from {
+    left: 50%;
+}
+to {
+    left: -50%;
+}
+}
+.info{
+    padding: 30px 50px;
+    background-color: aliceblue;
+}
+.info_container{    
+    display: flex;
+    justify-content: center;
+}
+.info_left{
+    width: 50%;
+    margin: 15px;
+}
+.info_left h3{
+    color: var(--logo1);
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.info_left p{
+    text-align: justify;
+    padding: 30px 50px;
+    background-color: rgb(162,20,36.2);
+    color: #fff;
+    min-height: 200px;
+    border-radius: 15px;
+}
+.info_right{
+    width: 50%;
+    margin: 15px;
+}
+.info_right h3{
+    color: var(--logo1);
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.info_right p{
+    text-align: justify;
+    padding: 30px 50px;
+    background-color: rgb(162,20,36.2);
+    color: #fff;
+    min-height: 200px;
+    border-radius: 15px;
+}

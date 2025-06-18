@@ -1,0 +1,225 @@
+:root{
+    --logo1:#ed1c24 /*rgba(237,28,36,255)*/;
+    --logo2:#a21424 /*rgba(162,20,36,255)*/;
+}
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: "Nunito",sans-serif;
+}
+header{
+    background-color:rgb(162,20,36);
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    flex-wrap: nowrap;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand_logo{
+    width: 80px;
+}
+.brand_name{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: color-mix(srgb, var(--logo1) 50%, var(--logo2)  50%);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.sign a{
+    text-decoration: none;
+    color: var(--logo2);
+    background-color:#fff ;
+    padding: 10px 30px;
+    border: var(--logo2) 1px solid;
+    border-radius: 30px;
+}
+.sign a:hover{
+    background-color: var(--logo1);
+    color: #fff;
+    border: var(--logo1) 1px solid;
+    box-shadow: #000000 5px 5px  50px inset;
+    transition: all .3s ease;
+}
+.sign a.active-btn{
+    background-color: var(--logo1);
+    color: #fff;
+    border: var(--logo1) 1px solid;
+    box-shadow: #000000 5px 5px  50px inset;
+}
+.bottom-header{
+    background-color: black;
+    padding: 5px 50px;
+}
+nav{
+    padding: 5px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-content a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.nav-item.active{
+    color: var(--logo1);
+    border-bottom: var(--logo1) 1px solid;
+}
+.nav-content a:hover{
+    color: var(--logo2);
+    border-bottom: var(--logo1) 1px solid;
+}
+
+footer .container_hf{
+	display: flex;
+	background-color:rgb(10, 101, 164,.2);
+}
+footer .container_hf .left-content{
+	flex: 1;
+	padding: 35px;
+	width: 30%;
+	border-right: rgb(180, 180, 180) solid 1px;
+}
+footer .container_hf .left-content img{
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+footer .container_hf .left-content p{
+	text-align: center;
+
+}
+footer .container_hf .center-content{
+	flex: 1;
+	padding: 15px;
+	width: 40%;
+	border-right: rgb(180, 180, 180) solid 1px;
+}
+footer .container_hf .center-content h3{
+	font-size: 28px;
+	padding-top: 20px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+footer .container_hf .center-content ul{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+footer .container_hf .center-content ul li{
+	list-style: none;
+	padding: 8px 0px;
+}
+footer .container_hf .center-content ul li a{
+	color:var(--dark-blue) ;
+	text-decoration: none;
+}
+footer .container_hf .right-content{
+	flex: 1;
+	float: right;
+	padding: 15px;
+	width: 30%;
+}
+footer .container_hf .right-content h3{
+	font-size: 28px;
+	padding-top: 20px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+footer .container_hf .right-content  ul{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+footer .container_hf .right-content  ul li{
+	list-style: none;
+	padding: 8px 0px;
+}
+footer .container_hf .right-content  ul li i{
+	font-size: 18px;
+}
+footer .copyright{
+	text-align: center;
+	background-color:#76000e;
+	padding: 12px 0px;
+    color: #fff;
+}
+footer .copyright a{
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (max-width: 880px){
+    .brand_name {
+        font-size: 2rem;
+    }
+
+    .sign a {
+        padding: 10px 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand_name {
+        font-size: 1.5rem;
+    }
+
+    .sign a {
+        padding: 8px 15px;
+    }
+
+    .bottom-header {
+        padding: 5px 10px;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    footer .container_hf {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    footer .container_hf .left-content,
+    footer .container_hf .center-content,
+    footer .container_hf .right-content {
+        width: 100%;
+        border-right: none;
+        border-bottom: rgb(180, 180, 180) solid 1px;
+    }
+
+    footer .center-content h3,
+    footer .right-content h3 {
+        font-size: 20px;
+    }
+
+    footer .center-content ul li,
+    footer .right-content .social-icons {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px){
+    .top-header{
+        flex-direction: column;
+        gap:50px;
+        padding: 20px 10px;
+    }
+
+    .sign{
+        margin-bottom: 20px;
+    }
+}
