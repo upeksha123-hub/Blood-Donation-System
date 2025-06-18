@@ -1,0 +1,127 @@
+body
+{
+	  /* background-image: url("../images/lalindi/appointment_bg.jpg");  */
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0px 0px 0px 0px;
+}
+
+.bodyimg{
+  background-image: url("../images/lalindi/appointment_bg.jpg");
+  margin: 0;
+  padding: 40px 0 40px 100px;
+}
+
+hr{
+    border: 1px solid rgb(150, 150, 150);
+    margin: 0 0 30px 0;
+}
+
+ fieldset{
+    background-color: #f2f2f277;
+    /* margin-left: 100px;
+    margin-top: 30px; */
+    /* margin:40px 0 40px 100px; */
+    width: 55%;
+ }
+ legend{
+   font-size: 50px;
+   align-content: center;
+   color: #024758;
+ }
+ label{
+  margin-left:40px ;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+ }
+ input[type=text],input[type=phone],input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 50px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+input[type=radio]{
+  margin-left: 50px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+}
+input[type=phone]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+}
+input[type=date]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+}
+select[type=time],
+select[type=center]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+textarea{
+  width: 60%;
+  padding: 10px 10px;
+  margin-left: 50px;
+   margin-top: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.inputstyle{
+  margin-left:40px ;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #329ac4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #5da2bd;
+}
+input[type=reset] {
+  width: 20%;
+  background-color: #497777;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px ;
+  margin-left: 60px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+input[type=reset]:hover {
+  background-color: #688f8d;
+}

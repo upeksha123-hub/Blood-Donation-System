@@ -1,0 +1,109 @@
+.about_hero{
+    background-image: url(../images/chanuka/team.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.about_hero_container{
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.about_hero_container h1{
+    font-size: 120px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.aboutus{
+    padding: 15px 30px;
+}
+.aboutus_container h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.aboutus_container p{
+    padding: 0px 100px;
+    text-align: justify;
+    line-height: 2rem;
+}
+.ourteam{
+    padding: 20px 100px;
+}
+.ourteam_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourteam_img img{
+    width: auto;
+    height: 350px;
+    margin: 5px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 20px;
+    border-radius: 10px;
+}
+.mission{
+    padding: 0px 50px;
+}
+.mission_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_mission{
+    width: 40%;
+}
+.left_mission img{
+    width: 400px;
+}
+.right_mission{
+    width: 70%;
+}
+.right_mission h3{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--logo2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.right_mission p{
+    text-align: justify;
+    padding: 0px 20px;  
+}
+.vision{
+    padding: 0px 50px;
+}
+.vision_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_vision{
+    width: 70%;
+}
+.left_vision h3{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--logo2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.left_vision p{
+    text-align: justify;
+    padding: 0px 20px;  
+}
+.right_vision{
+    width: 40%;
+}
+.right_vision img{
+    width: 400px;
+}
